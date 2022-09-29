@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,700&family=Roboto:ital,wght@0,300;0,400;1,400;1,900&family=Ubuntu:wght@700&display=swap");
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.navbar-brand {
+  font-family: "Alegreya", sans-serif;
+  font-size: 26px;
+}
+
+.nav-item > a {
+  font-family: "Roboto", sans-serif;
+}
+.subtitle {
+  font-family: "Alegreya", sans-serif;
+  font-weight: bold;
+  color: #5b5b5b;
+}
+.grey {
+  color: #515e6f;
+  font-weight: bold;
+}
+#claim-offer {
+  border-radius: 55px;
+  box-shadow: 1px 3px 3px 3px #00000029;
+}
+.bwin-logo {
+  width: 78px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50%;
+}
+.notification-count {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  translate: middle;
+  top: 0;
+  left: 80%;
+  border: 1px solid #dfdfdf;
+  border-radius: 50%;
+  background-color: #ffd138;
+  font-size: 12px;
+  font-weight: bold;
+}
+.info-hover {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #dfdfdf;
+  background-color: #ffd138;
+  font-size: 12px;
+  font-weight: bold;
+}
+.best-offer {
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  background: rgb(230, 161, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 238, 0, 1) 0%,
+    rgba(230, 161, 0, 1) 100%
+  );
+  color: #fff;
+  font-weight: bold;
+}
+
+.best-offer-container > img {
+  position: absolute;
+  translate: middle;
+  bottom: 50%;
+  left: 50%;
+  opacity: 0;
+  width: 70px;
+  transition: opacity 0.4s ease;
+}
+
+.best-offer-container:hover img {
+  opacity: 1;
+}
+
+.view-all-btn {
+  border: none;
+  width: 15%;
+  padding: 1.2% 1.7% 1.2% 1.7%;
+  background: linear-gradient(180deg, #e05950 0%, #933331 100%);
+}
+
+.view-all-btn:hover {
+  box-shadow: 0 0 10px 0 #e05950 inset, 0 0 10px 4px #e05950;
+}
+
+.play-now-btn {
+  width: 33%;
+  border: none;
+  padding: 3% 5% 3% 5%;
+  background: linear-gradient(180deg, #ffd138 0%, #e6a100 100%);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.play-now-btn:hover {
+  box-shadow: 0 0 10px 0 #ffd138 inset, 0 0 10px 4px #ffd138;
+}
+#golden-nugget-section {
+  background-image: url(./assets/golden-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  width: 100%;
+}
+
+ol > li > a {
+  text-decoration: none;
+  color: white;
+}
+#golden-nugget-logo {
+  width: 95px;
+  height: 95px;
+  border: 1px solid #3c3e4d;
+  background: #1b1e26;
+}
+.like-text-bg {
+  width: fit-content;
+  background: #3c3e4d;
+  text-align: center;
+  padding: 3px 10px 3px 10px;
+}
+#like-text {
+  color: white;
+  font-size: 10px;
+}
+.goledn-nugget-title {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.nugget-win-now {
+  border: none;
+  width: 13%;
+  border-radius: 20px;
+  padding: 1% 0 1% 0;
+  background: linear-gradient(90deg, #0dc2fb 0%, #c778fb 100%);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.nugget-win-now:hover {
+  box-shadow: 0 0 10px 0 #0dc2fb inset, 0 0 10px 4px #0dc2fb;
+}
+.no-deposit,
+.no-deposit > div > a {
+  color: white;
+  background: #3c3e4d;
+}
+.no-deposit > div > a {
+  font-size: 9px;
+}
+.no-deposit > div > button {
+  width: 40%;
+  padding: 3% 0 3% 0;
+}
+.deposit-title {
+  background: #2e303d;
+}
+.deposit-inner-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #0dc2fb;
+}
+
+.overall-rating > .row {
+  border-bottom: 1px solid #3c3e4d;
+}
+.overall-rating > .row:nth-child(1) > div:nth-child(2) {
+  color: #f37ef3;
+  font-family: "Poppins", sans-serif;
+
+  font-weight: bold;
+}
+.info-golden-nugget {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  position: absolute;
+  top: -20%;
+  left: 100%;
+  translate: middle;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #1b1e26;
+  font-family: "Alegreya", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.payment-options {
+  background: linear-gradient(#2e303d 60%, #1b1e26 100%);
+  border: 1px solid #3c3e4d;
+}
+.payment {
+  border-bottom: 1px dashed #3c3e4d;
+}
+.text-pink {
+  color: #f37ef3;
+}
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  color: #0ef68a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.golden-nugget-btn {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  border: none;
+  background: linear-gradient(90deg, #0dc2fb 0%, #c778fb 100%);
+  padding: 1% 0 1% 0;
+}
+.golden-nugget-btn:hover {
+  box-shadow: 0 0 10px 0 #0dc2fb inset, 0 0 10px 4px #0dc2fb;
+}
+.dropdown-toggle[aria-expanded="false"]:after {
+  transform: rotate(-90deg);
+}
+.dropdown-toggle:after {
+  transition: 0.4s;
+}
+.dropdown-toggle {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.show > div > div:first-child {
+  border-bottom: 2px solid #cc9966;
+}
+.text-cuprins {
+  cursor: pointer;
+  background: linear-gradient(#2e303d 60%, #1b1e26 100%);
+  padding: 0.9% 0 0.9% 0;
+}
+.casino-notification {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  translate: middle;
+  top: 0;
+  border: 1px solid #dfdfdf;
+  font-size: 12px;
+  font-weight: bold;
+  background: #fff;
+}
+ol.pagination li a,
+ol.pagination li:first-child a,
+ol.pagination li:last-child a {
+  border: none;
+  color: #292929;
+  background: transparent;
+}
+
+.page-item.active .page-link {
+  background: #fff;
+  color: #292929;
+}
+.major-casinos {
+  background: #f8f8f8;
+}
+
+.rhino-btn {
+  color: #292929;
+  border: 1px solid #fcd116;
+  border-radius: 0;
+}
+
+.display-hover {
+  position: absolute;
+  top: 0;
+  bottom: 34%;
+  left: 0;
+  right: 0;
+  background: rgba(113, 114, 114, 0.72);
+  text-align: center;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+}
+.rhyno-card:hover .display-hover {
+  visibility: visible;
+  opacity: 1;
+}
+.juego {
+  margin-top: 25%;
+  border: none;
+  background: #fcd116;
+  border-radius: 5px;
+  padding: 3% 10% 3% 10%;
+}
+
+.mostrar {
+  border: none;
+  background: #fcd116;
+  border-radius: 10px;
+  padding: 1% 3% 1% 3%;
+}
+
+.info-about {
+  background: linear-gradient(#2e303d 60%, #1b1e26 100%);
+}
+footer {
+  background: linear-gradient(#5b5b5b 60%, #3d3d3d 100%);
+}
+@media (max-width: 1300px) {
+  .best-offer > h5 {
+    text-align: start !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 15px;
+  }
+  .best-offer {
+    background: none;
+    color: #ffd138;
+  }
+}
+@media (max-width: 990px) {
+  .notification-count {
+    top: 30%;
+    left: 58%;
+  }
+  .btn,
+  .facebook,
+  .instagram,
+  .twitter {
+    width: 50% !important;
+  }
+  .rhino-btn {
+    width: 100% !important;
+  }
+  .best-offer > h5 {
+    font-size: 25px;
+    padding: 0 1rem 0 1rem !important;
+  }
+  .best-offer {
+    background: #ffd138;
+    color: #fff;
+  }
+  .m-2 {
+    margin: auto !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .col-6,
+  .visa-logo {
+    padding: 0.2rem;
+  }
+  .col-md-12,
+  .ps-4,
+  .ps-3 {
+    padding-top: 2rem;
+    padding-left: 0 !important;
+  }
+  .row {
+    --bs-gutter-x: 0;
+  }
+  .subtitle {
+    text-align: center;
+  }
+  .rounded-circle {
+    border: none !important;
+    border-radius: 0% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .bwin-logo-img {
+    text-align: center;
+    width: 15%;
+    border: none;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .grey,
+  .card-body {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .position-relative {
+    text-align: center;
+  }
+}
